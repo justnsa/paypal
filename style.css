@@ -5,25 +5,29 @@
 
 .container h2 {
   width: 80%;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   margin: 0 auto;
   font-weight: 500; }
-.container img {
-  width: 15%;
-  margin: 40% 0 5% 42.5%; }
+.container i {
+  font-size: 60px;
+  margin: 40% 0 5% 42.5%;
+  color: #1dd435; }
 .container p {
   width: 85%;
   margin: 5% auto 40%;
   text-align: center;
-  color: grey; }
-.container footer .button {
+  color: grey;
+  font-size: 15px; }
+.container .button {
+  color: white;
+  padding: 15px;
   display: flex; }
-  .container footer .button button {
+  .container .button button {
+    background: transparent;
+    background-color: #311aaf;
     width: 50%;
-    background-color: #4456f5;
-    color: white;
-    font-size: 16px;
-    padding: 10px; }
+    padding: 20px 0;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
