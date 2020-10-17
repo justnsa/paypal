@@ -5,7 +5,7 @@
 
 .container h2 {
   width: 80%;
-  font-size: 26px;
+  font-size: 22px;
   text-align: center;
   margin: 0 auto;
   font-weight: 500; }
@@ -13,7 +13,7 @@
   width: 15%;
   margin: 40% 0 5% 42.5%; }
 .container p {
-  width: 90%;
+  width: 85%;
   margin: 5% auto 40%;
   text-align: center;
   color: grey; }
@@ -21,7 +21,7 @@
   display: flex; }
   .container footer .button button {
     width: 50%;
-    background-color: #4949fa;
+    background-color: #4456f5;
     color: white;
     font-size: 16px;
     padding: 10px; }
