@@ -14,22 +14,26 @@
     font-weight: 500;
     }
     i {
-    font-size: 60px;
+    font-size: 75px;
     margin: 40% 0 5% 42.5%;
     color: rgb(29, 212, 53);
     }
     p {
         width: 85%;
-        margin: 5% auto 40%;
+        margin: 5% auto 0;
         text-align: center;
         color: grey;
         font-size: 15px;
     }
 
     .button {
+        position: fixed;
+        bottom: 1px;
         color: white;
+        width: 100%;
         padding: 15px;
         display: flex;
+        margin: 0 auto;
         button {
             background: transparent;
             background-color: rgb(49, 26, 175);
