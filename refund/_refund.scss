@@ -1,0 +1,45 @@
+header {
+
+    height: 70px;
+    background-color: rgb(59, 123, 191);
+    i {
+        font-size: 30px;
+        color: white;
+        margin: -20px 47%;
+    }
+    .bell-icon {
+        font-size: 25px;
+        margin: -20px 95%;
+    }
+}
+
+.menu-btn {
+    height: 40px;
+    width: 30px;
+    cursor: pointer;
+    &__burger {
+        position: absolute;
+        background-color: white;
+        height: 2px;
+        width: 20px;
+        margin: 32px 0 0 6px;
+        &::before {
+            position: absolute;
+            content: '';
+            bottom: 6px;
+            background-color: white;
+            height: 2px;
+            width: 20px;
+        }
+        &::after {
+            position: absolute;
+            content: 'MENU';
+            font-size: 7px;
+            color: white;
+            top: 6px;
+            background-color: white;
+            height: 3px;
+            width: 20px;
+        }
+    }
+}
