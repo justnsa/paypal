@@ -48,7 +48,8 @@ header {
   height: 600px; }
   .section .paypal-section {
     background-color: white;
-    width: 95%; }
+    width: 95%;
+    margin: 0 auto; }
     .section .paypal-section i {
       font-size: 65px;
       margin: 100px 0 40px 45.5%;
@@ -56,7 +57,7 @@ header {
     .section .paypal-section h2, .section .paypal-section p, .section .paypal-section .view {
       padding: 0 0 0 40px; }
     .section .paypal-section h2 {
-      font-size: 30px;
+      font-size: 28px;
       text-align: center;
       color: rgba(0, 0, 0, 0.657);
       margin-bottom: 20px; }
@@ -67,7 +68,8 @@ header {
       padding-left: 0; }
     .section .paypal-section h3 {
       color: #3b7bbf;
-      padding: 5px 0; }
+      padding: 5px 0;
+      font-size: 20px; }
       .section .paypal-section h3 span {
         color: rgba(128, 128, 128, 0.63); }
     .section .paypal-section .view {
